@@ -69,7 +69,7 @@ if ($googleClient->getAccessToken()) {
   <title>Google OAuth Login using PHP</title>
   <meta charset="utf-8">
   <style type="text/css">
-    h1 {
+    h1 h2 {
       font-family: Arial, Helvetica, sans-serif;
       color: #999999;
     }
@@ -85,7 +85,7 @@ if ($googleClient->getAccessToken()) {
 
 <body>
   <div class="container">
-    <?php echo '<h1>Google OAuth Login using PHP</h1>'; ?>
+    <?php echo '<h1>Google OAuth Login</h1><br><h2>Photogram is in Dev Mode, So Google Authentication is not implemented in photogram Instead Login or Signup with username and Password.</h2>'; ?>
     <?php echo $output; ?>
   </div>
 </body>
