@@ -1,6 +1,6 @@
 # Google Authentication Integration
 
-This project demonstrates how to integrate Google Authentication using the Google API PHP client. The live version of this project can be accessed at [https://google-auth.praveenms.site/](https://google-auth.praveenms.site/).
+This project demonstrates how to integrate Google Authentication using the Google API PHP client. The live version of this project can be accessed at [https://google-auth.praveenms.live/](https://google-auth.praveenms.live/).
 
 ## Overview
 
@@ -42,7 +42,7 @@ From that json file make config.json with database creds like below
   "google": {
     "client_id": "<client id>",
     "client_secret": "client secret",
-    "redirect_url": "https://google-auth.praveenms.site/"
+    "redirect_url": "https://google-auth.praveenms.live/"
   },
   "database": {
     "host": "<server url>",
